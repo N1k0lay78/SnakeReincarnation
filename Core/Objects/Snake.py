@@ -87,7 +87,6 @@ class Snake(Base):
             self.animation.set_rotate(0)
             head_direction[0] = -dir_1[0]
             head_direction[1] = dir_1[1]
-        print(head_direction, dir_2 == [-1, 0])
         return head_direction
 
     def draw(self):
